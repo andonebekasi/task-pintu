@@ -1,0 +1,9 @@
+{
+    "name": "my-nodejs-static-website",
+    "version": "1.0.0",
+    "description": "A simple Node.js static website",
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+  
