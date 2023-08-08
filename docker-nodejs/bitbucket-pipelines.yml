@@ -10,8 +10,8 @@ pipelines:
           - docker
         script:
           # Authenticate with Docker Hub using environment variables
-          - export DOCKERHUB_USERNAME=andonebekasi
-          - export DOCKERHUB_PASSWORD=Akuqwe123$
+          - export DOCKERHUB_USERNAME=isi-username
+          - export DOCKERHUB_PASSWORD=isi-password
 
           # Log in to Docker Hub
           - echo "$DOCKERHUB_PASSWORD" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
